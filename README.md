@@ -50,3 +50,6 @@ Point a GEMDOS hard drive at the folder that holds `SONIC.PRG` and run it as an 
     hatari --machine ste --memsize 4 --harddrive /path/to/folder
 
 Then open drive C: on the desktop and double-click `SONIC.PRG`.
+
+If the correct machine is already set up in hatari, you may also be able to start it with just
+    `hatari SONIC.PRG`

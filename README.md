@@ -7,3 +7,5 @@ Z80 code to 68000.
 - Run `SONIC.PRG` from TOS (floppy or hard disk). Control: joystick in either port.
 - The screen runs at the machine's own refresh rate (50 Hz or 60 Hz); game speed and music
   follow 50 Hz time on both.
+
+Prototype only - performance is not 100%.

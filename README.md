@@ -53,3 +53,10 @@ Then open drive C: on the desktop and double-click `SONIC.PRG`.
 
 If the correct machine is already set up in hatari, you may also be able to start it with just
     `hatari SONIC.PRG`
+
+## Builds
+
+- 2026-11-07: recompiler keeps more Z80 flags in registers across calls and returns
+  (about 1.4% less time in the game logic, Gigapolis 38.6 -> 38.8 fps in the test recording);
+  lives and rings HUD moved 8 pixels right.
+- 2026-11-01: first prototype. Runs at the machine's own refresh rate (50 or 60 Hz).
